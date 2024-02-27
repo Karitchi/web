@@ -1,0 +1,16 @@
+* {
+  border: border-box;
+  margin: 0;
+}
+
+.board {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.cell {
+  border: 1px solid #000;
+}
